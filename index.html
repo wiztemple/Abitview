@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title>ABiTgo</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="header">
+        <nav class="navbar white">
+          <div class="container-fluid">
+            <div class="brand">
+              <a href="index.html" class="navbar-item">
+                <span>
+                  ABiTgo
+                </span>
+              </a>
+              <a
+                role="button"
+                class="navbar-burger burger"
+                aria-label="menu"
+                aria-expanded="false"
+                data-target="navMenu"
+              >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+            <div class="nav-menu" id="navMenu">
+              <div class="navbar-left">
+                <a class="navbar-item">Buy Travel Insurance</a>
+                <a class="navbar-item">Safety</a>
+                <a class="navbar-item">Travel tips</a>
+                <a class="navbar-item">Claims</a>
+                <a class="navbar-item">Help Centre</a>
+              </div>
+              <div class="navbar-right">
+                <div class="navbar-item">
+                  <button class="button button-rounded button-outline">
+                    Sign Up
+                    <span class="button-arrow">
+                      <svg
+                        width="8"
+                        height="8"
+                        viewBox="0 0 8 8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M4.14592 0.146894C4.19236 0.10033 4.24754 0.0633873 4.30828 0.0381808C4.36903 0.0129744 4.43415 0 4.49992 0C4.56568 0 4.63081 0.0129744 4.69155 0.0381808C4.7523 0.0633873 4.80747 0.10033 4.85392 0.146894L7.85392 3.14689C7.90048 3.19334 7.93742 3.24851 7.96263 3.30926C7.98784 3.37001 8.00081 3.43513 8.00081 3.50089C8.00081 3.56666 7.98784 3.63178 7.96263 3.69253C7.93742 3.75327 7.90048 3.80845 7.85392 3.85489L4.85392 6.85489C4.76003 6.94878 4.63269 7.00152 4.49992 7.00152C4.36714 7.00152 4.2398 6.94878 4.14592 6.85489C4.05203 6.76101 3.99929 6.63367 3.99929 6.50089C3.99929 6.36812 4.05203 6.24078 4.14592 6.14689L6.79292 3.50089L4.14592 0.854894C4.09935 0.808448 4.06241 0.753272 4.0372 0.692527C4.012 0.631782 3.99902 0.566661 3.99902 0.500894C3.99902 0.435126 4.012 0.370005 4.0372 0.30926C4.06241 0.248515 4.09935 0.193339 4.14592 0.146894Z"
+                          fill="#0A3194"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M0 3.50085C0 3.36825 0.0526785 3.24107 0.146447 3.1473C0.240215 3.05353 0.367392 3.00085 0.5 3.00085H7C7.13261 3.00085 7.25979 3.05353 7.35355 3.1473C7.44732 3.24107 7.5 3.36825 7.5 3.50085C7.5 3.63346 7.44732 3.76064 7.35355 3.85441C7.25979 3.94818 7.13261 4.00085 7 4.00085H0.5C0.367392 4.00085 0.240215 3.94818 0.146447 3.85441C0.0526785 3.76064 0 3.63346 0 3.50085Z"
+                          fill="#0A3194"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="banner">
+          <div class="container">
+            <div class="columns">
+              <div class="col-6">
+                <div class="banner-text">
+                  <h1 class="h2">Travel insurance for Aussies</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate deleniti ullam reprehenderit nam ipsam eaque
+                    voluptate recusandae vero, praesentium magnam dignissimos
+                    placeat.
+                  </p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="banner-left">
+                  <h1 class="h4 text-center">Anything goes here</h1>
+                  <div class="app-form">
+                    <div class="flex-start">
+                      <div class="form-input">
+                        <label class="label">Travellers First Name</label>
+                        <input class="input-field" placeholder="Name" />
+                      </div>
+                      <div class="form-input">
+                        <label class="label">Travellers Last Name</label>
+                        <input class="input-field" placeholder="Last Name" />
+                      </div>
+                    </div>
+                    <div class="flex-start mt-20">
+                      <div class="form-input">
+                        <label class="label">Travellers House Address</label>
+                        <input class="input-field" placeholder="Address" />
+                      </div>
+                      <div class="form-input">
+                        <label class="label">Travellers Phone Number</label>
+                        <input class="input-field" placeholder="Number" />
+                      </div>
+                    </div>
+                    <div class="flex-start mt-20">
+                      <div class="form-input">
+                        <label class="label">Travellers Date of Birth</label>
+                        <input class="input-field" placeholder="D.O.B" />
+                      </div>
+                      <div class="form-input">
+                        <label class="label">Travellers Place of Birth</label>
+                        <input class="input-field" placeholder="Location" />
+                      </div>
+                    </div>
+                    <div class="flex-center mt-20">
+                      <button class="button button-rounded button-orange">
+                        Get a quote
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="section">
+        <div class="container">
+          <h1 class="h3 service-header">1000 Ways to Die</h1>
+          <div class="columns">
+            <div class="col-3">
+              <div class="service-card">
+                <div class="flex-center">
+                  <div class="service-card-icon bg-red">
+                    <svg
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11 7H2V21H0V5H11V7ZM21 7V5H15V3C15 2.73478 15.1054 2.48043 15.2929 2.29289C15.4804 2.10536 15.7348 2 16 2H18V0H15.5C15 0 14 0.45 14 1C14 0.45 13.05 0 12.5 0H10V2H12C12.2652 2 12.5196 2.10536 12.7071 2.29289C12.8946 2.48043 13 2.73478 13 3V17C13 17.2652 12.8946 17.5196 12.7071 17.7071C12.5196 17.8946 12.2652 18 12 18H10V20H12.5C13.05 20 14 19.55 14 19C14 19.55 14.95 20 15.5 20H18V18H16C15.7348 18 15.4804 17.8946 15.2929 17.7071C15.1054 17.5196 15 17.2652 15 17V7H21Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p>
+                  Enter your trip details<br />
+                  into the quote form
+                </p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="service-card">
+                <div class="flex-center">
+                  <div class="service-card-icon bg-gold">
+                    <svg
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11 7H2V21H0V5H11V7ZM21 7V5H15V3C15 2.73478 15.1054 2.48043 15.2929 2.29289C15.4804 2.10536 15.7348 2 16 2H18V0H15.5C15 0 14 0.45 14 1C14 0.45 13.05 0 12.5 0H10V2H12C12.2652 2 12.5196 2.10536 12.7071 2.29289C12.8946 2.48043 13 2.73478 13 3V17C13 17.2652 12.8946 17.5196 12.7071 17.7071C12.5196 17.8946 12.2652 18 12 18H10V20H12.5C13.05 20 14 19.55 14 19C14 19.55 14.95 20 15.5 20H18V18H16C15.7348 18 15.4804 17.8946 15.2929 17.7071C15.1054 17.5196 15 17.2652 15 17V7H21Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p>
+                  Enter your trip details<br />
+                  into the quote form
+                </p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="service-card">
+                <div class="flex-center">
+                  <div class="service-card-icon bg-blue">
+                    <svg
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11 7H2V21H0V5H11V7ZM21 7V5H15V3C15 2.73478 15.1054 2.48043 15.2929 2.29289C15.4804 2.10536 15.7348 2 16 2H18V0H15.5C15 0 14 0.45 14 1C14 0.45 13.05 0 12.5 0H10V2H12C12.2652 2 12.5196 2.10536 12.7071 2.29289C12.8946 2.48043 13 2.73478 13 3V17C13 17.2652 12.8946 17.5196 12.7071 17.7071C12.5196 17.8946 12.2652 18 12 18H10V20H12.5C13.05 20 14 19.55 14 19C14 19.55 14.95 20 15.5 20H18V18H16C15.7348 18 15.4804 17.8946 15.2929 17.7071C15.1054 17.5196 15 17.2652 15 17V7H21Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p>
+                  Enter your trip details<br />
+                  into the quote form
+                </p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="service-card">
+                <div class="flex-center">
+                  <div class="service-card-icon bg-green">
+                    <svg
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11 7H2V21H0V5H11V7ZM21 7V5H15V3C15 2.73478 15.1054 2.48043 15.2929 2.29289C15.4804 2.10536 15.7348 2 16 2H18V0H15.5C15 0 14 0.45 14 1C14 0.45 13.05 0 12.5 0H10V2H12C12.2652 2 12.5196 2.10536 12.7071 2.29289C12.8946 2.48043 13 2.73478 13 3V17C13 17.2652 12.8946 17.5196 12.7071 17.7071C12.5196 17.8946 12.2652 18 12 18H10V20H12.5C13.05 20 14 19.55 14 19C14 19.55 14.95 20 15.5 20H18V18H16C15.7348 18 15.4804 17.8946 15.2929 17.7071C15.1054 17.5196 15 17.2652 15 17V7H21Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p>
+                  Enter your trip details<br />
+                  into the quote form
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h1 class="h3 offer-header text-center">Why Use ABiTgo</h1>
+          <div class="columns relative">
+            <div class="col-4">
+              <div class="offer-card">
+                <div class="flex-start">
+                  <div class="width-40">
+                    <div class="offer-card-icon">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12.3609 6.96141H6.77344V1.37391C6.77344 1.30516 6.71719 1.24891 6.64844 1.24891H6.24219C5.42232 1.24807 4.61035 1.40913 3.85287 1.72285C3.0954 2.03657 2.40732 2.49676 1.82812 3.07704C1.25786 3.64553 0.8036 4.3195 0.490625 5.06141C0.165625 5.83172 0 6.64891 0 7.49266C0 8.33641 0.165625 9.15204 0.490625 9.92235C0.804688 10.6645 1.25469 11.3333 1.82812 11.9067C2.40156 12.4802 3.06875 12.9302 3.8125 13.2442C4.58147 13.5705 5.40845 13.7379 6.24375 13.7364C7.06362 13.7372 7.87559 13.5762 8.63306 13.2625C9.39054 12.9488 10.0786 12.4886 10.6578 11.9083C11.2312 11.3348 11.6813 10.6677 11.9953 9.92391C12.3215 9.15495 12.489 8.32797 12.4875 7.49266V7.08641C12.4859 7.01766 12.4297 6.96141 12.3609 6.96141ZM13.7344 6.09422L13.6938 5.6536C13.5609 4.2161 12.9234 2.85985 11.8953 1.83641C10.8681 0.810105 9.51459 0.175056 8.06875 0.0410995L7.62656 0.000474574C7.55312 -0.00577543 7.49063 0.0504746 7.49063 0.123912V6.11922C7.49063 6.18797 7.54688 6.24422 7.61563 6.24422L13.6094 6.2286C13.6828 6.22704 13.7406 6.1661 13.7344 6.09422Z"
+                          fill="#d69c08d3"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="offer-card-message">
+                    <h1 class="h5">Guaranteed Best Prices</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Minima, ea.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="offer-card">
+                <div class="flex-start">
+                  <div class="width-40">
+                    <div class="offer-card-icon">
+                      <svg
+                        width="19"
+                        height="20"
+                        viewBox="0 0 19 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M16.5 1C15.8371 1.00053 15.2015 1.26409 14.7328 1.73282C14.2641 2.20155 14.0005 2.83712 14 3.5C14 3.857 14.078 4.196 14.214 4.505L12.259 6.704C11.5949 6.24558 10.807 6.00004 10 6C9.26 6 8.576 6.216 7.981 6.566L5.707 4.293L5.684 4.316C5.88 3.918 6 3.475 6 3C6 2.40666 5.82405 1.82664 5.49441 1.33329C5.16477 0.839943 4.69623 0.455426 4.14805 0.228363C3.59987 0.00129986 2.99667 -0.0581102 2.41473 0.0576455C1.83279 0.173401 1.29824 0.459124 0.878681 0.878681C0.459124 1.29824 0.173401 1.83279 0.0576455 2.41473C-0.0581102 2.99667 0.00129986 3.59987 0.228363 4.14805C0.455426 4.69623 0.839943 5.16477 1.33329 5.49441C1.82664 5.82405 2.40666 6 3 6C3.475 6 3.917 5.88 4.316 5.684L4.293 5.707L6.567 7.98C6.19964 8.59003 6.00375 9.28791 6 10C6 10.997 6.38 11.899 6.985 12.601L4.408 15.177C4.11917 15.0614 3.81111 15.0013 3.5 15C2.122 15 1 16.121 1 17.5C1 18.879 2.122 20 3.5 20C4.878 20 6 18.879 6 17.5C6 17.179 5.934 16.874 5.823 16.591L8.661 13.753C9.082 13.903 9.528 14 10 14C12.206 14 14 12.206 14 10C14 9.364 13.837 8.771 13.572 8.236L15.689 5.853C15.945 5.941 16.215 6 16.5 6C17.879 6 19 4.879 19 3.5C19 2.121 17.879 1 16.5 1ZM10 12C8.897 12 8 11.103 8 10C8 8.897 8.897 8 10 8C11.103 8 12 8.897 12 10C12 11.103 11.103 12 10 12Z"
+                          fill="black"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="offer-card-message">
+                    <h1 class="h5">Guaranteed Best Prices</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Minima, ea.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="offer-card">
+                <div class="flex-start">
+                  <div class="width-40">
+                    <div class="offer-card-icon">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12.3609 6.96141H6.77344V1.37391C6.77344 1.30516 6.71719 1.24891 6.64844 1.24891H6.24219C5.42232 1.24807 4.61035 1.40913 3.85287 1.72285C3.0954 2.03657 2.40732 2.49676 1.82812 3.07704C1.25786 3.64553 0.8036 4.3195 0.490625 5.06141C0.165625 5.83172 0 6.64891 0 7.49266C0 8.33641 0.165625 9.15204 0.490625 9.92235C0.804688 10.6645 1.25469 11.3333 1.82812 11.9067C2.40156 12.4802 3.06875 12.9302 3.8125 13.2442C4.58147 13.5705 5.40845 13.7379 6.24375 13.7364C7.06362 13.7372 7.87559 13.5762 8.63306 13.2625C9.39054 12.9488 10.0786 12.4886 10.6578 11.9083C11.2312 11.3348 11.6813 10.6677 11.9953 9.92391C12.3215 9.15495 12.489 8.32797 12.4875 7.49266V7.08641C12.4859 7.01766 12.4297 6.96141 12.3609 6.96141ZM13.7344 6.09422L13.6938 5.6536C13.5609 4.2161 12.9234 2.85985 11.8953 1.83641C10.8681 0.810105 9.51459 0.175056 8.06875 0.0410995L7.62656 0.000474574C7.55312 -0.00577543 7.49063 0.0504746 7.49063 0.123912V6.11922C7.49063 6.18797 7.54688 6.24422 7.61563 6.24422L13.6094 6.2286C13.6828 6.22704 13.7406 6.1661 13.7344 6.09422Z"
+                          fill="#d69c08d3"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="offer-card-message">
+                    <h1 class="h5">Guaranteed Best Prices</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Minima, ea.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-5">
+              <div class="offer-subtext">
+                <h1 class="offer-subtext-header">
+                  Travelguide helps compare plans from world's leading travel
+                  insurance providers.
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                  non, error dignissimos amet inventore cum optio? Nulla,
+                  doloremque? Fuga exercitationem itaque eum quo dicta quas quae
+                  molestiae debitis animi dolor est quod consectetur commodi
+                  sequi labore nihil, facere deleniti esse.
+                </p>
+              </div>
+              <button class="button button-circle">Explore</button>
+            </div>
+            <div class="background-sphere">
+              <img src="./assets/images/sphere.svg" alt="background sphere" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="columns">
+            <div class="col-6">
+              <div class="product-details">
+                <h1 class="h3">
+                  Compare and Buy Travel Insurance With Outline
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Officia, earum ipsam, unde natus tenetur cum tempore quae a
+                  placeat aliquam, ut at? Molestias in quas expedita architecto
+                  fugit voluptates. Reprehenderit!
+                </p>
+                <div class="blockquote">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Corporis, soluta minus illo consequatur quisquam, aut earum
+                  voluptate libero non error rerum pariatur? Expedita, corrupti
+                  totam!
+                </div>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum,
+                  explicabo tempora? Earum inventore, eum praesentium sed nulla
+                  odit ratione accusamus.
+                </p>
+                <button class="mt-20 button button-rounded button-orange">
+                  See more tracking
+                </button>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="relative">
+                <div class="float-left">
+                  <div class="sms-card">
+                    <div class="space-between">
+                      <div class="flex-start">
+                        <div class="sms-icon">&copysr;</div>
+                        <span class="sms-company-name">DHL Tech</span>
+                      </div>
+                      <span class="sms-time">now</span>
+                    </div>
+                    <h1>Reminder</h1>
+                    <span>You have successfully submitted a quote</span>
+                  </div>
+                </div>
+                <div class="float-right">
+                  <div class="sms-card">
+                    <div class="space-between">
+                      <div class="flex-start">
+                        <div class="sms-icon">&copysr;</div>
+                        <span class="sms-company-name">DHL Tech</span>
+                      </div>
+                      <span class="sms-time">now</span>
+                    </div>
+                    <h1>Reminder</h1>
+                    <span>You have successfully submitted a quote</span>
+                  </div>
+                </div>
+                <div class="phone-image">
+                  <img src="./assets/images/phone.png" alt="phone" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h1 class="h3 text-center pb-40 primary-color">
+            Great stories Our Policy
+          </h1>
+          <div class="columns">
+            <div class="col-6">
+              <div class="stories-card-lg">
+                <img src="./assets/images/f_4x.png" alt="card" />
+                <div class="stories-card-lg-desc">
+                  <span>Travel Tips</span>
+                  <h1>How to Save Money During Holiday Travels</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Eaque, ipsam aperiam error ut quis voluptate fuga. Obcaecati
+                    ipsa tempore soluta amet? Magni nesciunt provident
+                    praesentium commodi, tempore reprehenderit totam corporis
+                    obcaecati esse non, dolorem velit earum quae suscipit nobis
+                    doloribus illum in ipsa sequi. Iste a optio velit recusandae
+                    expedita!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="stories-card-sm">
+                <img src="./assets/images/f_4x.png" alt="card" />
+                <div class="stories-card-sm-desc">
+                  <span>Travel Tips</span>
+                  <h1>How to Save Money During Holiday Travels</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Eaque, ipsam aperiam error ut quis voluptate fuga. Obcaecati
+                    ipsa tempore soluta amet?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="news">
+                <div class="news-card">
+                  <span>News</span>
+                  <a href="#">Africa Travel Tips for ultimate Adventure</a>
+                </div>
+                <div class="news-card">
+                  <span>News</span>
+                  <a href="#">Best Car Games to play with Children</a>
+                </div>
+                <div class="news-card">
+                  <span>News</span>
+                  <a href="#">Africa Travel Tips for ultimate Adventure</a>
+                </div>
+                <div class="news-card">
+                  <span>News</span>
+                  <a href="#">What you should do to enhance Trip Safety</a>
+                </div>
+                <div class="more-stories">
+                  <span>More Stories</span>
+                  <a href="#">&rightarrow;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section footer">
+        <div class="container">
+          <div class="columns">
+            <div class="col-5">
+              <div class="footer-left">
+                <div class="space-between">
+                  <div class="footer-list">
+                    <h1>Company</h1>
+                    <a href="#">About Us</a>
+                    <a href="#">Our Plan</a>
+                    <a href="#">Payment Policy</a>
+                    <a href="#">Travel Guard</a>
+                  </div>
+                  <div class="footer-list">
+                    <h1>Integrations</h1>
+                    <a href="#">Agoda</a>
+                    <a href="#">Booking</a>
+                    <a href="#">Trivago</a>
+                    <a href="#">Planyo</a>
+                  </div>
+                </div>
+                <div class="space-between">
+                  <div class="footer-list">
+                    <h1>Trip Nomads</h1>
+                    <a href="#">Travel Insurance</a>
+                    <a href="#">Get a quote</a>
+                    <a href="#">Travel safety</a>
+                    <a href="#">Explore</a>
+                  </div>
+                  <div class="footer-list">
+                    <h1>Need Help?</h1>
+                    <a href="#">Help & Emergencies</a>
+                    <a href="#">Make a claim</a>
+                    <a href="#">Help Center</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-4">
+              <div class="footer-right">
+                <div class="quote-form">
+                  <h1>Request a quote Today</h1>
+                  <div class="flex-start">
+                    <div class="input-form">
+                      <input
+                        type="email"
+                        class="input-field quote-form-input"
+                        placeholder="Email"
+                      />
+                      <span class="input-field-icon">
+                        <svg
+                          width="18"
+                          height="14"
+                          viewBox="0 0 18 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M16.2 0H1.8C0.81 0 0.00899999 0.7875 0.00899999 1.75L0 12.25C0 13.2125 0.81 14 1.8 14H16.2C17.19 14 18 13.2125 18 12.25V1.75C18 0.7875 17.19 0 16.2 0ZM15.84 3.71875L9.477 7.58625C9.189 7.76125 8.811 7.76125 8.523 7.58625L2.16 3.71875C2.06975 3.6695 1.99073 3.60295 1.9277 3.52315C1.86467 3.44334 1.81896 3.35193 1.79332 3.25445C1.76768 3.15697 1.76265 3.05544 1.77854 2.95602C1.79443 2.85659 1.8309 2.76134 1.88575 2.67601C1.9406 2.59069 2.01269 2.51707 2.09765 2.45962C2.18262 2.40217 2.27868 2.36207 2.38005 2.34176C2.48141 2.32145 2.58595 2.32135 2.68736 2.34145C2.78876 2.36156 2.88492 2.40147 2.97 2.45875L9 6.125L15.03 2.45875C15.1151 2.40147 15.2112 2.36156 15.3126 2.34145C15.414 2.32135 15.5186 2.32145 15.62 2.34176C15.7213 2.36207 15.8174 2.40217 15.9023 2.45962C15.9873 2.51707 16.0594 2.59069 16.1142 2.67601C16.1691 2.76134 16.2056 2.85659 16.2215 2.95602C16.2373 3.05544 16.2323 3.15697 16.2067 3.25445C16.181 3.35193 16.1353 3.44334 16.0723 3.52315C16.0093 3.60295 15.9302 3.6695 15.84 3.71875V3.71875Z"
+                            fill="#A9BAE4"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <button class="button button-orange button-rounded ml-10">
+                      Get a full quote
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
